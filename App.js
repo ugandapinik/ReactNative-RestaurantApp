@@ -1,6 +1,7 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import HomeScreen from './src/screens/HomeScreen';
 import SearchScreen from './src/screens/SearchScreen';
+import ResultsShowScreen from './src/screens/ResultsShowScreen';
 
 // 4HwS2oCVQ1-f_kzHCv5X3A
 // API Key
@@ -9,7 +10,8 @@ import SearchScreen from './src/screens/SearchScreen';
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
-    Search: SearchScreen
+    Search: SearchScreen,
+    ResultsShow: ResultsShowScreen
   },
 
   {
